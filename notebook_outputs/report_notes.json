@@ -1,0 +1,28 @@
+{
+  "width_vs_depth": "Even though a single hidden layer can approximate continuous functions in theory, deep models are often more parameter-efficient for compositional image features and usually generalize better.",
+  "overfitting_strategy": "Applied dropout, weight decay, early stopping, and batch normalization to reduce overfitting.",
+  "top_confusions": [
+    {
+      "rank": 1,
+      "class_a": "pizza",
+      "class_b": "wheel",
+      "combined_confusions": 250,
+      "a_to_b": 129,
+      "b_to_a": 121
+    },
+    {
+      "rank": 2,
+      "class_a": "basketball",
+      "class_b": "soccerball",
+      "combined_confusions": 223,
+      "a_to_b": 117,
+      "b_to_a": 106
+    }
+  ],
+  "selected_champion": {
+    "name": "champion",
+    "params": 2125071,
+    "best_epoch": 30,
+    "best_val_acc": 0.7915833333333333
+  }
+}

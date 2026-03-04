@@ -1,0 +1,18 @@
+[
+  {
+    "rank": 1,
+    "class_a": "pizza",
+    "class_b": "wheel",
+    "combined_confusions": 250,
+    "a_to_b": 129,
+    "b_to_a": 121
+  },
+  {
+    "rank": 2,
+    "class_a": "basketball",
+    "class_b": "soccerball",
+    "combined_confusions": 223,
+    "a_to_b": 117,
+    "b_to_a": 106
+  }
+]
